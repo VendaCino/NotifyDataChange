@@ -1,5 +1,6 @@
 # DataChangeWrapper File
 Notify other object when marked setters or methods called.
+Could be used in multiplayer game data synchronizing.
 <br><br><br>
 
 
