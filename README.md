@@ -77,7 +77,7 @@ A normal way is only send the changed part. But you should add more method in th
 This method use AOP and Attribute to dynamically notify DataChange. 
 
 ```
-public class PeopleData{
+public class PeopleData : MarshalByRefObject{
     int X{get;[DataChange]set;};
     int Y{get;[DataChange]set;};
     int Hp{get;[DataChange]set;};
